@@ -1,0 +1,22 @@
+* C:\Users\Usuario\Documents\UdeM\2022-1\repos-electronica\transistores\ejemplos-clase\transistor-amplificador\bjt_ejemplo2\bjt_amp-ejemplo2.asc
+RE V+ e 10k
+V+ V+ 0 10
+Vi Vin 0 SINE(0 0.010 1k)
+Q1 c 0 e 0 PNP_ideal
+RC c V- 5k
+V- V- 0 -10
+C1 e Vin {C_in}
+C2 Vout c {C_out}
+RL Vout 0 {R_Load}
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Usuario\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 3m 0 3u
+* Analisis
+.op
+.model PNP_ideal PNP(BF = 100)
+* Modelos
+* Parametros
+.param C_in=100u C_out=100u R_Load=100Meg
+.backanno
+.end
