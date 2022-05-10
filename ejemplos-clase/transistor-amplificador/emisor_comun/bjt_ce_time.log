@@ -1,0 +1,28 @@
+Circuit: * C:\Users\Usuario\Documents\UdeM\2022-1\repos-electronica\transistores\ejemplos-clase\transistor-amplificador\emisor_comun\bjt_ce_time.asc
+
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-011
+Changing Tseed to 1e-013
+Changing Tseed to 1e-010
+Changing Tseed to 1e-014
+Changing Tseed to 1e-009
+Changing Tseed to 1e-015
+Changing Tseed to 1e-008
+
+Date: Mon May 09 23:06:33 2022
+Total elapsed time: 8.642 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 600092
+traniter = 600085
+tranpoints = 300012
+accept = 300005
+rejected = 0
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 404 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 711 bytes object code size  0.2/0.3/[0.2]
+
