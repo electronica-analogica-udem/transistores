@@ -1,0 +1,42 @@
+Circuit: * C:\Users\Usuario\Documents\UdeM\2022-1\repos-electronica\transistores\ejemplos-clase\transistor-amplificador\esquemas-polarizacion\example1_design1.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q1
+Model:   npn_ideal
+Ib:       7.42e-05
+Ic:       1.67e-03
+Vbe:      7.89e-01
+Vbc:      7.00e-01
+Vce:      8.93e-02
+BetaDC:   2.25e+01
+Gm:       6.67e-02
+Rpi:      1.45e+03
+Rx:       0.00e+00
+Ro:       4.59e+02
+Cbe:      0.00e+00
+Cbc:      0.00e+00
+Cjs:      0.00e+00
+BetaAC:   9.68e+01
+Cbx:      0.00e+00
+Ft:       0.00e+00
+
+
+
+Date: Thu May 12 23:57:17 2022
+Total elapsed time: 0.055 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 8
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 248 bytes object code size
+Matrix Compiler2: 389 bytes object code size
