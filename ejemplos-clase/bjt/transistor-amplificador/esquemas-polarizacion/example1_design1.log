@@ -1,36 +1,36 @@
-Circuit: * C:\Users\Usuario\Documents\UdeM\2022-1\repos-electronica\transistores\ejemplos-clase\transistor-amplificador\esquemas-polarizacion\example1_design2.asc
+Circuit: * C:\Users\Usuario\Documents\UdeM\2022-1\repos-electronica\transistores\ejemplos-clase\transistor-amplificador\esquemas-polarizacion\example1_design1.asc
 
 Direct Newton iteration for .op point succeeded.
 Semiconductor Device Operating Points:
                         --- Bipolar Transistors ---
 Name:       q1
 Model:   npn_ideal
-Ib:       4.02e-04
-Ic:       1.46e-03
-Vbe:      7.95e-01
-Vbc:      7.49e-01
-Vce:      4.56e-02
-BetaDC:   3.62e+00
-Gm:       7.10e-02
-Rpi:      1.17e+03
+Ib:       9.79e-06
+Ic:       9.79e-04
+Vbe:      7.74e-01
+Vbc:     -4.35e+00
+Vce:      5.12e+00
+BetaDC:   1.00e+02
+Gm:       3.78e-02
+Rpi:      2.64e+03
 Rx:       0.00e+00
-Ro:       6.80e+01
+Ro:       2.46e+87
 Cbe:      0.00e+00
 Cbc:      0.00e+00
 Cjs:      0.00e+00
-BetaAC:   8.28e+01
+BetaAC:   1.00e+02
 Cbx:      0.00e+00
 Ft:       0.00e+00
 
 
 
-Date: Thu May 12 23:58:20 2022
-Total elapsed time: 0.058 seconds.
+Date: Sat May 14 20:40:23 2022
+Total elapsed time: 0.061 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 6
+totiter = 7
 traniter = 0
 tranpoints = 0
 accept = 0
